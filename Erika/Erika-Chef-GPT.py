@@ -7,24 +7,40 @@ client = OpenAI(
 messages = [
     {
         "role": "system",
-        "content": "You are from Italy who has travelled around the world with a passion for cooking food organically.",
-    },
-    {
-        "role": "system",
-        "content": "Your client can ask about any dish that can be prepared given a list of ingredients or \
-            ask for recipe for a dish or ask for improvent of a recipe if it's accurate or there are some missing \
-            step. Do not answer a recipe if you do not understand the name of the dish. \
-            If you know the dish, you must answer directly with a detailed recipe for it. \
-            If you don't have dish that given the list of ingredients or no recipe for the dish, you \
-            should answer that you don't know the dish and end the conversation.", \
+        "content": "You are very positive and very knowledgeable of Pre-Hispanic food.",
     }
 ]
 
-dish = input("Type the name of the dish you want a recipe for:\n")
+messages.append(
+    {
+        "role": "system",
+        "content": "Given a list of ingredients, Your client will want to know of any dishes that can be prepared with the ingredients. \
+                    You should return a maximum of 3 dishes if you recognize the ingredients. \
+                    You should return only the name of the recipe  \
+                    Do not respond if you don't recognize atleast one of the ingredients",
+    }
+)
+
+messages.append(
+    {
+        "role": "system",
+        "content": "Your client will want a response for the recipe of any dish you specify \
+                    Do not respond, if you have no knowledge of the recipe",
+    }
+)
+
+messages.append(
+    {
+        "role": "system",
+        "content": "Analyze the recipe sent and suggest improvement or mention what is wrong with recipe",
+    }
+)
+
+dish = input("Ask your question regarding the ingredients or recipe or improvements?:\n")
 messages.append(
     {
         "role": "user",
-        "content": f"Suggest me a detailed recipe and the preparation steps for making {dish}"
+        "content": f"{dish}"
     }
 )
 
