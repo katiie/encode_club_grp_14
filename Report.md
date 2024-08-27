@@ -58,4 +58,4 @@ Cultural Sensitivity: Erika's AI respected and promoted Pre-Hispanic culinary tr
 
 ##### Conclusion
 The experiment showed that AI personalities significantly influence how responses are delivered. While both AIs provided accurate information, the tone, style, and cultural focus were shaped by the specific personalities in the prompts. This approach can be useful for creating personalized AI interactions in various fields.
-Image
+
