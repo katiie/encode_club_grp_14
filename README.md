@@ -85,4 +85,4 @@ A customer AI-powered system to assist you with cooking and baking. The model ca
 
 > For more instructions on how to complete this in different Operational Systems, go to <https://platform.openai.com/docs/quickstart/step-2-set-up-your-api-key>
 
-Now you're ready to start cooking with Chef GPT! 🍽️
+Now you're ready to start cooking
