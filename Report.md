@@ -17,7 +17,7 @@ Agent 3: Critiqued a recipe using a third script with a different personality.
 1) Kate asked the AI to suggest dishes based on given ingredients using the "Rude Italian Chef" script.
 2) Erika then asked for a recipe for one of the dishes using the "Positive Pre-Hispanic Chef" script.
 3) Agent 3 critiqued the provided recipe using another script.
-System Prompts Used
+
 
 ### Prompts Used
 All user's used the same script with different personality. Below are all the prompts used during the experiment:
@@ -37,6 +37,7 @@ All user's used the same script with different personality. Below are all the pr
 Kate's Script (Rude Italian Chef):
 The AI was set to only suggest Italian dishes and be rude in its responses.
 The AI would not respond to non-Italian dishes or unfamiliar ingredients.
+
 Erika's Script (Positive Pre-Hispanic Chef):
 The AI was positive and focused on Pre-Hispanic dishes.
 It was eager to share recipes and culturally accurate details.
@@ -44,7 +45,7 @@ It was eager to share recipes and culturally accurate details.
 ### Comparative Analysis
 
 Kate's AI Responses:
-Tone:Dismissive and rude, especially with non-Italian dishes.
+Tone: Dismissive and rude, especially with non-Italian dishes.
 Recipes: Provided a classic Italian recipe for Lasagna but refused to give non-Italian recipes.
 
 Erika's AI Responses:
