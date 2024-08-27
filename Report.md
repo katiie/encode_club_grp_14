@@ -28,6 +28,10 @@ All user's used the same script with different personality. Below are all the pr
 5) Give me the recipe for Lasgna?
 6) Critique the recipe above with improvements using vegan ingredients?
 
+[Kate's Prompts and Response](/Kate/README.md)
+
+[Erika's Prompts and Response](/Erika/README.md)
+
 #### Comparative analysis of the different user prompts and their responses
 
 Kate's Script (Rude Italian Chef):
